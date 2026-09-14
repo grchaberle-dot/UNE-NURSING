@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medication Administration | UNE Nursing Study Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Patrick Hand',cursive;background:oklch(96% 0.01 280);min-height:100vh;color:oklch(20% 0.02 280);line-height:1.6}
+.header{background:linear-gradient(135deg,oklch(88% 0.06 160) 0%,oklch(92% 0.04 200) 100%);padding:1.5rem;text-align:center;border-bottom:3px solid oklch(80% 0.08 160)}
+.header h1{font-family:'Bangers',cursive;font-size:clamp(1.8rem,5vw,2.8rem);color:oklch(15% 0.02 280);letter-spacing:0.02em}
+.header .sub{font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.08 280)}
+.back{display:inline-block;text-decoration:none;color:oklch(30% 0.05 280);font-weight:700;padding:0.5rem 1rem;margin:1rem 1.5rem;border:2px solid oklch(80% 0.06 280);border-radius:10px;font-size:0.95rem;transition:transform 0.15s}
+.back:hover{transform:scale(1.03)}
+main{max-width:900px;margin:0 auto;padding:1rem 1.5rem 3rem}
+section{margin-bottom:2.5rem}
+section h2{font-family:'Bangers',cursive;font-size:1.6rem;margin-bottom:1rem;color:oklch(20% 0.02 280)}
+.card{border-radius:14px;padding:1.3rem;border:3px dashed;margin-bottom:1rem;line-height:1.6}
+.card h3{font-family:'Bangers',cursive;font-size:1.25rem;margin-bottom:0.5rem}
+.card ul,.card ol{padding-left:1.2rem;margin-top:0.3rem}
+.card li{margin-bottom:0.3rem}
+.card b{color:oklch(30% 0.1 350)}
+.c-mint{background:oklch(95% 0.04 160);border-color:oklch(80% 0.1 160)}
+.c-pink{background:oklch(95% 0.04 350);border-color:oklch(80% 0.1 350)}
+.c-lav{background:oklch(95% 0.03 290);border-color:oklch(80% 0.09 290)}
+.c-yel{background:oklch(96% 0.04 90);border-color:oklch(84% 0.1 90)}
+.c-peach{background:oklch(96% 0.03 55);border-color:oklch(83% 0.09 55)}
+.c-cyan{background:oklch(95% 0.03 200);border-color:oklch(80% 0.09 200)}
+.tip{position:relative;background:oklch(98% 0.01 280);border:2px dashed oklch(70% 0.05 280);border-radius:12px;padding:1rem;margin-top:0.8rem;font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.06 280)}
+.tip::before{content:'\1F4A1';position:absolute;top:-12px;left:12px;font-size:1.1rem}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+table{width:100%;border-collapse:collapse;margin-top:0.5rem;font-size:0.95rem}
+table th{font-family:'Bangers',cursive;background:oklch(88% 0.06 290);padding:0.5rem;text-align:left;border:2px solid oklch(80% 0.08 290)}
+table td{padding:0.5rem;border:2px solid oklch(88% 0.04 290);background:oklch(98% 0.01 280)}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>\uD83D\uDC8A Medication Administration</h1>
+<p class="sub">The Six Rights, Routes & Pharmacokinetics</p>
+</div>
+<a href="../index.html" class="back">\u2190 Back to Hub</a>
+<main>
+
+<section>
+<h2>\u2728 The Six Rights of Drug Administration</h2>
+<div class="grid-2">
+<div class="card c-mint">
+<h3>1. Right Medication</h3>
+<p>Compare the label to the medication order form <b>3 times</b>:</p>
+<ol>
+<li>Before removing from the drawer/shelf</li>
+<li>As the amount ordered is removed</li>
+<li>Before returning the container to storage</li>
+</ol>
+</div>
+<div class="card c-pink">
+<h3>2. Right Dose</h3>
+<p>When performing calculations or conversions, have <b>another qualified nurse</b> check the calculated dose.</p>
+</div>
+<div class="card c-lav">
+<h3>3. Right Client</h3>
+<p>Check the medication form against the client's <b>identification bracelet</b> AND ask the client to <b>state their name</b>.</p>
+</div>
+<div class="card c-yel">
+<h3>4. Right Route</h3>
+<p>If the order doesn't specify a route, <b>consult the prescriber</b>. If the route is not recommended, alert the prescriber immediately.</p>
+</div>
+<div class="card c-peach">
+<h3>5. Right Time</h3>
+<p>Know why medication is ordered at specific times. Some must act at certain times (e.g. <b>insulin before meals</b>).</p>
+</div>
+<div class="card c-cyan">
+<h3>6. Right Documentation</h3>
+<p>Document: client name, medication name, time, dose, route, frequency. <b>Sign immediately after administration.</b></p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83E\uDDEA Pharmacokinetics (ADME)</h2>
+<div class="card c-mint">
+<h3>What the body does to a drug</h3>
+<ul>
+<li><b>Absorption</b>: Drug enters systemic circulation after administration</li>
+<li><b>Distribution</b>: Drug moves from vascular space to tissues</li>
+<li><b>Metabolism</b>: Irreversible transformation of parent compound into metabolites (mainly liver)</li>
+<li><b>Elimination</b>: Removal of substances from the body (mainly kidneys)</li>
+</ul>
+<div class="tip">ADME = Absorption, Distribution, Metabolism, Elimination. The drug's journey: in, around, changed, out.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDC89 Administration Routes</h2>
+<div class="card c-lav">
+<h3>Oral Routes</h3>
+<ul>
+<li><b>Sublingual</b>: Under tongue. Rapid absorption into bloodstream. Don't swallow.</li>
+<li><b>Buccal</b>: Against cheek mucosa. Bypasses liver for greater potency.</li>
+<li><b>Oral (PO)</b>: Solid (tablet, capsule, pill) or liquid (syrup, suspension, emulsion, elixir)</li>
+</ul>
+<div class="tip">Elixir = alcohol-based. Wait 30 min before giving water for maximum absorption. Suspension = shake before use.</div>
+</div>
+<div class="card c-pink">
+<h3>Topical Routes</h3>
+<ul>
+<li><b>Dermatologic</b>: Lotions, liniment, ointments, powder</li>
+<li><b>Ophthalmic</b>: Eye instillation and irrigation</li>
+<li><b>Otic</b>: Ear instillation (remove cerumen, pus, foreign body)</li>
+<li><b>Nasal</b>: Decongestants, steroids, calcitonin</li>
+<li><b>Inhaled</b>: Nebuliser, metered-dose inhaler</li>
+<li><b>Vaginal</b>: Tablet, douche, jelly, foam, suppository</li>
+</ul>
+</div>
+<div class="card c-yel">
+<h3>Parenteral Routes (Injection)</h3>
+<table>
+<tr><th>Route</th><th>Angle</th><th>Uses</th><th>Key Notes</th></tr>
+<tr><td><b>Intradermal (ID)</b></td><td>10-15\u00B0</td><td>Allergy/TB testing, vaccinations</td><td>Bevel up. Forms wheal/bleb. Do NOT massage site.</td></tr>
+<tr><td><b>Subcutaneous (SC)</b></td><td>45\u00B0</td><td>Insulin, heparin, vaccines</td><td>Small doses only. Rotate injection sites.</td></tr>
+<tr><td><b>Intramuscular (IM)</b></td><td>90\u00B0</td><td>Larger volumes</td><td>Clean with alcohol. Inject slowly.</td></tr>
+<tr><td><b>Intravenous (IV)</b></td><td>Direct</td><td>Fastest onset</td><td>As bolus or mixed in IV fluid.</td></tr>
+</table>
+<div class="tip">Exam favourite: ID=10-15\u00B0 (nearly flat), SC=45\u00B0 (halfway), IM=90\u00B0 (straight down). Think of a clock!</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCDD Medication Abbreviations</h2>
+<div class="card c-cyan">
+<table>
+<tr><th>Abbreviation</th><th>Meaning</th><th>Abbreviation</th><th>Meaning</th></tr>
+<tr><td><b>a.c.</b></td><td>Before meals</td><td><b>p.c.</b></td><td>After food</td></tr>
+<tr><td><b>b.i.d.</b></td><td>Twice a day</td><td><b>t.i.d.</b></td><td>Three times a day</td></tr>
+<tr><td><b>q.i.d.</b></td><td>Four times a day</td><td><b>q.d.</b></td><td>Every day</td></tr>
+<tr><td><b>q.o.d.</b></td><td>Every other day</td><td><b>q.h.</b></td><td>Every hour</td></tr>
+<tr><td><b>q.2.h.</b></td><td>Every 2 hours</td><td><b>q.4.h.</b></td><td>Every 4 hours</td></tr>
+<tr><td><b>p.o.</b></td><td>Orally</td><td><b>p.r.</b></td><td>Rectally</td></tr>
+<tr><td><b>p.r.n.</b></td><td>As needed</td><td><b>stat</b></td><td>Immediately</td></tr>
+<tr><td><b>h.s.</b></td><td>At bedtime</td><td><b>gtt</b></td><td>Drop(s)</td></tr>
+<tr><td><b>o.d.</b></td><td>Right eye</td><td><b>o.s.</b></td><td>Left eye</td></tr>
+<tr><td><b>o.u.</b></td><td>Both eyes</td><td><b>u.d.</b></td><td>As directed</td></tr>
+</table>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCCB Components of a Complete Order</h2>
+<div class="card c-peach">
+<ul>
+<li>Client name (last and first)</li>
+<li>Medication name</li>
+<li>Strength of medication (if required)</li>
+<li>Dosage to be administered</li>
+<li>Route of administration</li>
+<li>Specific directions, including frequency</li>
+<li>Reason for administration (if PRN)</li>
+<li>Prescriber's signature</li>
+</ul>
+</div>
+</section>
+
+</main>
+</body>
+</html>
