@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CHIMNEOPS | UNE Nursing Study Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Patrick Hand',cursive;background:oklch(96% 0.01 280);min-height:100vh;color:oklch(20% 0.02 280);line-height:1.6}
+.header{background:linear-gradient(135deg,oklch(90% 0.06 55) 0%,oklch(92% 0.05 90) 100%);padding:1.5rem;text-align:center;border-bottom:3px solid oklch(83% 0.09 55)}
+.header h1{font-family:'Bangers',cursive;font-size:clamp(1.8rem,5vw,2.8rem);color:oklch(15% 0.02 280)}
+.header .sub{font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.08 280)}
+.back{display:inline-block;text-decoration:none;color:oklch(30% 0.05 280);font-weight:700;padding:0.5rem 1rem;margin:1rem 1.5rem;border:2px solid oklch(80% 0.06 280);border-radius:10px;font-size:0.95rem}
+main{max-width:900px;margin:0 auto;padding:1rem 1.5rem 3rem}
+section{margin-bottom:2.5rem}
+section h2{font-family:'Bangers',cursive;font-size:1.5rem;margin-bottom:1rem}
+.domain{border-radius:14px;padding:1.2rem;border:3px dashed;margin-bottom:0.8rem;line-height:1.6}
+.domain h3{font-family:'Bangers',cursive;font-size:1.15rem;margin-bottom:0.3rem}
+.domain .what{font-size:0.9rem;color:oklch(45% 0.06 280);margin-bottom:0.4rem;font-style:italic}
+.domain .eg{background:oklch(98% 0.01 280);border-radius:8px;padding:0.6rem 0.8rem;font-size:0.92rem;border:1px solid oklch(88% 0.04 280)}
+.c-mint{background:oklch(95% 0.04 160);border-color:oklch(80% 0.1 160)}
+.c-pink{background:oklch(95% 0.04 350);border-color:oklch(80% 0.1 350)}
+.c-lav{background:oklch(95% 0.03 290);border-color:oklch(80% 0.09 290)}
+.c-yel{background:oklch(96% 0.04 90);border-color:oklch(84% 0.1 90)}
+.c-peach{background:oklch(96% 0.03 55);border-color:oklch(83% 0.09 55)}
+.c-cyan{background:oklch(95% 0.03 200);border-color:oklch(80% 0.09 200)}
+.card{border-radius:14px;padding:1.3rem;border:3px dashed;margin-bottom:1rem;line-height:1.6}
+.card h3{font-family:'Bangers',cursive;font-size:1.2rem;margin-bottom:0.5rem}
+.card ul{padding-left:1.2rem;margin-top:0.3rem}
+.card li{margin-bottom:0.3rem}
+.tip{position:relative;background:oklch(98% 0.01 280);border:2px dashed oklch(70% 0.05 280);border-radius:12px;padding:1rem;margin:0.8rem 0;font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.06 280)}
+.tip::before{content:'\1F4A1';position:absolute;top:-12px;left:12px;font-size:1.1rem}
+.warn{position:relative;background:oklch(97% 0.03 55);border:2px dashed oklch(78% 0.1 55);border-radius:12px;padding:1rem;margin:0.8rem 0;font-size:0.95rem}
+.warn::before{content:'\u26A0\uFE0F';position:absolute;top:-12px;left:12px;font-size:1.1rem}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:0.8rem}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>\uD83D\uDCDD CHIMNEOPS</h1>
+<p class="sub">Nursing Progress Note Framework | Every Domain, Every Shift</p>
+</div>
+<a href="../index.html" class="back">\u2190 Back to Hub</a>
+<main>
+
+<section>
+<h2>\u2696\uFE0F Why Documentation Matters</h2>
+<div class="card c-pink">
+<ul>
+<li><b>Legal document</b>: Can be subpoenaed in court, reviewed by Coroner, or used in AHPRA investigations. If it isn't documented, legally it didn't happen.</li>
+<li><b>AHPRA investigations</b>: Poor or falsified documentation can lead to notifications, conditions on registration, or cancellation.</li>
+<li><b>Continuity of care</b>: The next nurse, doctor, or AHP needs your notes to provide safe care.</li>
+<li><b>NSQHS Standard 6</b>: Clinical records must be accurate, timely, and accessible (ACSQHC).</li>
+<li><b>Clinical safety</b>: Documentation omissions are a leading contributor to adverse events and near-misses.</li>
+</ul>
+</div>
+<div class="card c-lav">
+<h3>\uD83C\uDDE6\uD83C\uDDFA Golden Rules</h3>
+<ul>
+<li><b>Black pen only</b></li>
+<li>Date and time every entry</li>
+<li>Sign with full name and designation</li>
+<li><b>Never erase</b>: draw a single line through errors and initial</li>
+<li>Never document in advance</li>
+<li>Avoid vague language ("patient seems comfortable"): be specific and objective</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCCB The CHIMNEOPS Domains</h2>
+<div class="tip">Document only the domains relevant to your patient each shift. Not every domain applies every time. But use this as your mental checklist so nothing gets missed.</div>
+
+<div class="domain c-lav">
+<h3>C \u2014 Cognitive</h3>
+<p class="what">Orientation, GCS, confusion, anxiety, behaviour</p>
+<div class="eg">e.g. Patient alert and oriented to time, place, and person. GCS 15/15. No signs of confusion or agitation noted.</div>
+</div>
+
+<div class="domain c-cyan">
+<h3>H \u2014 Hygiene</h3>
+<p class="what">Self-care ability, assisted wash, oral care, grooming</p>
+<div class="eg">e.g. Patient attended to personal hygiene independently. Oral care performed. Skin clean and dry.</div>
+</div>
+
+<div class="domain c-mint">
+<h3>I \u2014 Integrity (Skin)</h3>
+<p class="what">Wounds, pressure areas, bruising, IV sites, oedema</p>
+<div class="eg">e.g. Skin intact. No redness over pressure areas. Surgical wound R) abdomen: dressing dry and intact, no signs of infection. IV cannula R) forearm: site patent, no phlebitis.</div>
+</div>
+
+<div class="domain c-peach">
+<h3>M \u2014 Mobility</h3>
+<p class="what">Ambulation, falls risk, aids, assistance level</p>
+<div class="eg">e.g. Patient mobilised to bathroom with standby assist x1. Falls risk score 12 (high). Non-slip footwear worn. Bed in lowest position.</div>
+</div>
+
+<div class="domain c-yel">
+<h3>N \u2014 Nutrition & Hydration</h3>
+<p class="what">Oral intake, IV fluids, swallowing, diet type, nausea</p>
+<div class="eg">e.g. Patient tolerated full diet. Ate approximately 75% of lunch. Encouraged oral fluids: intake approx. 600 mL this shift. No nausea or vomiting.</div>
+</div>
+
+<div class="domain c-pink">
+<h3>E \u2014 Endocrine</h3>
+<p class="what">BGL, diabetes management, hormonal concerns</p>
+<div class="eg">e.g. BGL checked pre-meal: 6.2 mmol/L. Insulin administered as charted. No hypoglycaemic episodes noted.</div>
+</div>
+
+<div class="domain c-lav">
+<h3>E \u2014 Elimination</h3>
+<p class="what">Urine output, bowel, catheter, continence</p>
+<div class="eg">e.g. Voided x2 this shift: approximately 350 mL, clear yellow urine. Last bowel motion documented yesterday. No IDC in situ.</div>
+</div>
+
+<div class="domain c-cyan">
+<h3>O \u2014 Observation</h3>
+<p class="what">Vital signs: T, HR, BP, RR, SpO2, BGL, pain score</p>
+<div class="eg">e.g. T 36.8\u00B0C, HR 78 bpm (regular), BP 128/76 mmHg, RR 16/min, SpO2 98% on RA. Pain score 2/10. Observations within normal limits.</div>
+</div>
+
+<div class="domain c-mint">
+<h3>P \u2014 Psychosocial</h3>
+<p class="what">Mood, anxiety, family, social supports, consent, capacity</p>
+<div class="eg">e.g. Patient appears anxious regarding upcoming procedure. Provided information and reassurance. Family present and supportive. Social work referral discussed with RN in charge.</div>
+</div>
+
+<div class="domain c-peach">
+<h3>S \u2014 Safety & Comfort</h3>
+<p class="what">Pain management, positioning, rest, sleep, environment, call bell</p>
+<div class="eg">e.g. Patient reports pain 3/10 in operative site. Analgesia administered as charted at 1200: effective, pain reduced to 1/10. Repositioned 2-hourly. Call bell within reach. Bed in lowest position, brakes engaged.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDC8A Additional Domains</h2>
+<div class="grid-2">
+<div class="domain c-yel">
+<h3>Medication</h3>
+<p class="what">Meds given, refused, held, reactions, education</p>
+<div class="eg">e.g. All charted medications administered as prescribed. Patient educated regarding new antibiotic: purpose and possible side effects explained. No adverse reactions noted.</div>
+</div>
+<div class="domain c-pink">
+<h3>Environment</h3>
+<p class="what">Safety, call bell, bed position, equipment, hazards</p>
+<div class="eg">e.g. Environment safe and tidy. Call bell within reach. Non-slip mat in place. No hazards identified.</div>
+</div>
+<div class="domain c-mint">
+<h3>Plan</h3>
+<p class="what">Ongoing care, referrals, reviews, goals for next shift</p>
+<div class="eg">e.g. Continue current care plan. Monitor vital signs 4-hourly. Physio review booked for 0900 tomorrow. Wound review by CNS on next shift. Encourage oral fluids. Family meeting arranged for 1600.</div>
+</div>
+</div>
+</section>
+
+<section>
+<h2>\u2705 How to Use CHIMNEOPS on Placement</h2>
+<div class="card c-cyan">
+<ol style="padding-left:1.2rem">
+<li><b>Before your shift</b>: Print or memorise the CHIMNEOPS headings. Keep the acronym on a notepad in your pocket.</li>
+<li><b>During handover</b>: Jot dot-point notes under each relevant domain as you receive handover.</li>
+<li><b>During the shift</b>: Document contemporaneously (in real-time, not at the end of the shift). Note times.</li>
+<li><b>At end of shift</b>: Review your notes against the CHIMNEOPS checklist. Did you miss any relevant domain?</li>
+<li><b>Before handover</b>: Structure your verbal handover around the same domains. This builds consistency.</li>
+</ol>
+<div class="tip">CHIMNEOPS + ISBAR = your placement documentation and communication toolkit. CHIMNEOPS for written notes, ISBAR for verbal handover and escalation. Learn both and you'll look like you know exactly what you're doing from day one.</div>
+</div>
+</section>
+
+<div class="warn">Privacy reminder: Never share real patient information outside approved clinical systems. Breaching the Privacy Act 1988 (Cth), your NMBA obligations, or your health service's confidentiality policy can result in AHPRA investigation or legal consequences.</div>
+
+</main>
+</body>
+</html>
