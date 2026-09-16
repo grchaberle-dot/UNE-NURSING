@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deteriorating Patient | UNE Nursing Study Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Patrick+Hand&family=Caveat:wght@500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Patrick Hand',cursive;background:oklch(96% 0.01 280);min-height:100vh;color:oklch(20% 0.02 280);line-height:1.6}
+.header{background:linear-gradient(135deg,oklch(90% 0.07 30) 0%,oklch(92% 0.05 55) 100%);padding:1.5rem;text-align:center;border-bottom:3px solid oklch(80% 0.1 30)}
+.header h1{font-family:'Bangers',cursive;font-size:clamp(1.8rem,5vw,2.8rem);color:oklch(15% 0.02 280)}
+.header .sub{font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.08 280)}
+.back{display:inline-block;text-decoration:none;color:oklch(30% 0.05 280);font-weight:700;padding:0.5rem 1rem;margin:1rem 1.5rem;border:2px solid oklch(80% 0.06 280);border-radius:10px;font-size:0.95rem}
+main{max-width:900px;margin:0 auto;padding:1rem 1.5rem 3rem}
+section{margin-bottom:2.5rem}
+section h2{font-family:'Bangers',cursive;font-size:1.5rem;margin-bottom:1rem}
+.card{border-radius:14px;padding:1.3rem;border:3px dashed;margin-bottom:1rem;line-height:1.6}
+.card h3{font-family:'Bangers',cursive;font-size:1.2rem;margin-bottom:0.5rem}
+.card ul,.card ol{padding-left:1.2rem;margin-top:0.3rem}
+.card li{margin-bottom:0.25rem}
+.c-mint{background:oklch(95% 0.04 160);border-color:oklch(80% 0.1 160)}
+.c-pink{background:oklch(95% 0.04 350);border-color:oklch(80% 0.1 350)}
+.c-lav{background:oklch(95% 0.03 290);border-color:oklch(80% 0.09 290)}
+.c-yel{background:oklch(96% 0.04 90);border-color:oklch(84% 0.1 90)}
+.c-peach{background:oklch(96% 0.03 55);border-color:oklch(83% 0.09 55)}
+.c-cyan{background:oklch(95% 0.03 200);border-color:oklch(80% 0.09 200)}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.tip{position:relative;background:oklch(98% 0.01 280);border:2px dashed oklch(70% 0.05 280);border-radius:12px;padding:1rem;margin:0.8rem 0;font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.06 280)}
+.tip::before{content:'\1F4A1';position:absolute;top:-12px;left:12px;font-size:1.1rem}
+.warn{position:relative;background:oklch(97% 0.04 30);border:2px dashed oklch(76% 0.12 30);border-radius:12px;padding:1rem;margin:0.8rem 0;font-size:0.95rem}
+.warn::before{content:'\u26A0\uFE0F';position:absolute;top:-12px;left:12px;font-size:1.1rem}
+.step{border-radius:14px;padding:1rem 1rem 1rem 4rem;border:3px dashed;margin-bottom:0.8rem;position:relative}
+.step-n{position:absolute;left:0.9rem;top:0.9rem;font-family:'Bangers',cursive;font-size:1.6rem;width:2.2rem;height:2.2rem;display:flex;align-items:center;justify-content:center;border-radius:50%;background:oklch(99% 0.005 280);border:2px solid oklch(70% 0.08 280)}
+.step h3{font-family:'Bangers',cursive;font-size:1.15rem;margin-bottom:0.2rem}
+table{width:100%;border-collapse:collapse;font-size:0.9rem;margin-bottom:1rem}
+table th{font-family:'Bangers',cursive;background:oklch(88% 0.07 30);padding:0.45rem;text-align:left;border:2px solid oklch(80% 0.09 30);font-size:0.92rem}
+table td{padding:0.4rem;border:2px solid oklch(90% 0.05 30);background:oklch(98% 0.01 280)}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>\uD83D\uDEA8 The Deteriorating Patient</h1>
+<p class="sub">Primary Survey, DRSABCD, Escalation & Recognising Deterioration</p>
+</div>
+<a href="../index.html" class="back">\u2190 Back to Hub</a>
+<main>
+
+<div class="warn">Educational resource only. Always follow your facility's observation chart, escalation protocol and resuscitation policy. Escalation criteria vary between health services.</div>
+
+<section>
+<h2>\uD83D\uDD24 The ABCDE Primary Survey</h2>
+<div class="step c-pink"><div class="step-n">A</div><h3>Airway</h3><p>Is the airway patent? Look for obstruction, stridor, gurgling or snoring. Can they speak in full sentences? A patient who cannot maintain their own airway is the highest priority in the room.</p></div>
+<div class="step c-peach"><div class="step-n">B</div><h3>Breathing</h3><p>Respiratory rate, depth and effort. Accessory muscle use. SpO2 and oxygen requirement. Auscultate for crackles, wheeze or absent air entry. Symmetry of chest movement.</p></div>
+<div class="step c-yel"><div class="step-n">C</div><h3>Circulation</h3><p>Heart rate and rhythm, blood pressure, capillary refill, peripheral pulses, skin colour and temperature. Urine output. Any bleeding.</p></div>
+<div class="step c-mint"><div class="step-n">D</div><h3>Disability</h3><p>Level of consciousness (GCS or AVPU), pupils, blood glucose, limb movement and power, pain score.</p></div>
+<div class="step c-cyan"><div class="step-n">E</div><h3>Exposure</h3><p>Temperature, full skin inspection, wounds, drains, lines, rashes, oedema. Maintain dignity and warmth while you look.</p></div>
+<div class="tip">Work ABCDE in order every single time, and fix what you find before moving on. A problem at A always outranks a problem at E.</div>
+</section>
+
+<section>
+<h2>\uD83E\uDE7A DRSABCD Basic Life Support</h2>
+<div class="card c-pink">
+<table>
+<tr><th>Letter</th><th>Action</th></tr>
+<tr><td><b>D</b></td><td>Danger: check for hazards to yourself, others and the patient</td></tr>
+<tr><td><b>R</b></td><td>Response: check for a response (talk and touch)</td></tr>
+<tr><td><b>S</b></td><td>Send for help: activate the emergency response</td></tr>
+<tr><td><b>A</b></td><td>Airway: open and clear the airway</td></tr>
+<tr><td><b>B</b></td><td>Breathing: look, listen and feel for normal breathing</td></tr>
+<tr><td><b>C</b></td><td>CPR: start compressions and rescue breaths</td></tr>
+<tr><td><b>D</b></td><td>Defibrillation: attach a defibrillator as soon as available</td></tr>
+</table>
+<div class="tip">Danger and Response come before anything clinical. You are no use to the patient if you become the second casualty.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCC8 Recognising Clinical Deterioration</h2>
+<div class="card c-yel">
+<p>Observation charts are designed with coloured escalation zones. A single observation in the escalation zone, or a trend heading that way, requires action.</p>
+<h3 style="margin-top:0.6rem">What to watch for</h3>
+<ul>
+<li><b>Trend, not just the number</b>: three sets of obs each slightly worse is deterioration even if none has hit the red zone</li>
+<li><b>Respiratory rate</b>: often the earliest and most sensitive sign of deterioration, and the most commonly missed</li>
+<li><b>Reduced conscious state</b>: any new confusion, drowsiness or agitation</li>
+<li><b>Falling urine output</b></li>
+<li><b>Patient or family concern</b>: "something is not right" is a legitimate escalation trigger</li>
+<li><b>Your own worry</b>: if you are worried, that alone justifies escalating</li>
+</ul>
+<div class="warn">Respiratory rate is the vital sign most often skipped and the one that changes earliest. Count it properly for a full 60 seconds.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCDE Escalating Care</h2>
+<div class="card c-cyan">
+<ol>
+<li><b>Stay with the patient</b> and get someone else to make the call if you can</li>
+<li><b>Reassess</b> using ABCDE while help is coming</li>
+<li><b>Call according to your facility's protocol</b>: nurse in charge, medical review, Rapid Response or MET call</li>
+<li><b>Hand over using ISBAR</b> with a specific recommendation</li>
+<li><b>Document</b> the time, who you called, what you reported and the agreed plan</li>
+<li><b>Escalate again</b> if the response is inadequate or the patient keeps deteriorating</li>
+</ol>
+<div class="tip">You never need permission to escalate. Escalating early and being told everything is fine is always better than escalating late.</div>
+</div>
+</section>
+
+<section>
+<h2>\u26A1 Recognising Shock</h2>
+<div class="card c-peach">
+<p>Shock is inadequate tissue perfusion. The four main types:</p>
+<table>
+<tr><th>Type</th><th>Mechanism</th></tr>
+<tr><td><b>Hypovolaemic</b></td><td>Loss of circulating volume: haemorrhage, dehydration, burns</td></tr>
+<tr><td><b>Cardiogenic</b></td><td>The heart fails to pump effectively</td></tr>
+<tr><td><b>Distributive</b></td><td>Widespread vasodilation: septic, anaphylactic, neurogenic</td></tr>
+<tr><td><b>Obstructive</b></td><td>Physical obstruction to flow: tamponade, tension pneumothorax, massive PE</td></tr>
+</table>
+<div class="tip">Shock progresses through stages. Early compensated shock can look deceptively stable because the body is compensating hard. A rising heart rate with a still-normal blood pressure is a warning, not reassurance.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83E\uDDE0 Stroke: FAST</h2>
+<div class="card c-lav">
+<table>
+<tr><th>Letter</th><th>Check</th></tr>
+<tr><td><b>F</b></td><td>Face: has their face drooped?</td></tr>
+<tr><td><b>A</b></td><td>Arms: can they lift both arms?</td></tr>
+<tr><td><b>S</b></td><td>Speech: is their speech slurred? Do they understand you?</td></tr>
+<tr><td><b>T</b></td><td>Time: time is critical. Note the time of onset and act immediately.</td></tr>
+</table>
+<p style="margin-top:0.5rem">Stroke types: <b>ischaemic</b> (clot) and <b>haemorrhagic</b> (bleed). Management differs completely, so imaging comes before treatment.</p>
+<div class="tip">Time of symptom ONSET is the single most important piece of information you can hand over in a suspected stroke.</div>
+</div>
+</section>
+
+<section>
+<h2>\uD83D\uDCCB Neurological Assessment in Deterioration</h2>
+<div class="card c-mint">
+<ul>
+<li><b>GCS</b>: eye opening, verbal response, motor response</li>
+<li><b>Pupils</b>: size, equality and reaction to light (PERRLA)</li>
+<li><b>Limb power</b>: compare both sides using the 0 to 5 muscle strength scale</li>
+<li><b>Blood glucose</b>: always check it in any altered conscious state</li>
+<li><b>Blood pressure</b>: monitor carefully post-stroke, following the specific parameters ordered</li>
+</ul>
+<div class="warn">Hypoglycaemia can mimic stroke and many other neurological presentations. Check a blood glucose on every patient with altered consciousness.</div>
+</div>
+</section>
+
+</main>
+</body>
+</html>
