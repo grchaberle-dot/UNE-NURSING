@@ -1,93 +1,58 @@
-# 🩺 UNE NURSING STUDY HUB
+# UNE Bachelor of Nursing Study Hub
 
-**Georgia's Bachelor of Nursing Interactive Study Materials**
+**Georgia Haberle** | UNE BNURS (Rule A) | Starting Trimester 1, mid-Feb 2027
 
-🔗 **Live site:** [grchaberle-dot.github.io/UNE-NURSING](https://grchaberle-dot.github.io/UNE-NURSING/)
+144 credit points | 24 units | 800 hours Professional Education Practice (PEP)
 
-🎯 **Interactive app:** [Open in ClickUp](https://app.clickup.com/90161675879/artifact/2kz0vzk7-4936)
+## Repository Structure
 
-## What is this?
+### Year 1 Foundation
+- `HLTH101/` Information and Evidence in Health and Social Care
+- `HLTH102/` Interprofessional Practice in Health and Social Care
+- `HLTH103/` Communication for Health Professionals
+- `HSNS170/` Foundations of Safety and Quality in Nursing
+- `HSNS171/` Professional Nursing Practice 1 (80hr PEP)
+- `HSNS173/` Professional Nursing Practice 2 (80hr PEP)
+- `PSIO110/` Introductory Human Physiology 1
+- `PSIO120/` Introductory Human Physiology 2
 
-Reference hub for UNE's Bachelor of Nursing (BNURS, Rule A). 144 credit points, 24 core units, starting Trimester 1 mid-February 2027, online, with mandatory Armidale intensive schools and 800 hours of PEP placement.
+### Year 2 Developing Practice
+- `PSIO215/` Pathophysiology and Pharmacology
+- `HSNS210/` Mental Health Nursing (80hr PEP)
+- `HSNS249/` Primary and Community Health Care (80hr PEP)
+- `HSNS362/` Chronic Care Nursing
+- `OORA400/` Working with Aboriginal People
 
-The **hub** (here) holds everything as readable reference, including non-Australian material kept purely as a reference index. The **app** (ClickUp artifact) holds the interactive learn / practice / test loop and only ever uses Australian-sourced content.
+### Year 3 Advanced & Leadership
+- `HSNS363/` Complex Care
+- `HSNS372/` Care of the Deteriorating Patient (160hr PEP)
+- `HSNS374/` Clinical Leadership and Governance
+- `HSNS398/` Capstone (160hr PEP)
 
-## Trimester 1 Units
+### Cross-Unit
+- `clinical-skills/` Health assessment scripts, clinical procedures, ABG interpretation
+- `resources/` Non-Australian reference index, general study resources
+- `reference-cards/` Quick reference cards
 
-| Code | Unit |
-|------|------|
-| HLTH101 | Information and Evidence in Health and Social Care |
-| HLTH102 | Interprofessional Practice in Health and Social Care |
-| HLTH103 | Communication for Health Professionals |
-| HSNS170 | Foundations of Safety and Quality in Nursing |
-| HSNS171 | Professional Nursing Practice 1: Fundamentals |
-| PSIO110 | Introductory Human Physiology 1 |
+## Interactive Study App
 
-## Structure
+73 modules across 17 units with:
+- Learn Zone: interactive lessons with predict-before-reveal, Meet the Patient, teach-it-back
+- The Arena: 20 game modes with 900+ questions
+- Brain Level: concept mastery tracking across 5 difficulty tiers
+- Spaced repetition: 7 stages to 12 weeks
+- 60+ diverse patients across entire lifespan
 
-```
-/                    → index.html (main hub page)
-/HLTH101/            → Critical thinking, facts/opinions/EBP
-/HLTH102/            → (unit folder, content pending)
-/HSNS170/            → (unit folder, content pending)
-/HSNS171/            → IV therapy & medication administration, fluid balance charts
-/HSNS362/            → Chronic illness and nursing care
-/PSIO110/            → Muscular system, autonomic nervous system, spinal cord &
-                       nerves, lymphatic system & immunity, biochemistry
-                       foundations, musculoskeletal overview
-/PSIO120/            → Cellular respiration, endocrine system & feedback, fluid
-                       compartments & electrolytes, lipid metabolism & integration
-/PSIO215/            → Haematological disorders, asthma & respiratory emergencies,
-                       ABCDE & clinical reasoning
-/reference-cards/    → 25 reference cards
-/resources/          → Study system, reference library, strategies, templates,
-                       placement prep, OUA planning,
-                       non-australian-reference-index.md
-/etsy-notes/         → External notes index with source-reliability guidance
-```
-
-## Reference Cards (25)
-
-**Clinical skills:** Medication Administration, Dosage Calculations, Vital Signs, Medical Abbreviations, Injection Angles, ANTT, ISBAR & Clinical Reasoning, CHIMNEOPS, Blood Tests, Electrolytes, ECG Interpretation, Clinical Assessment & Genetics, The Deteriorating Patient
-
-**Care planning:** Nursing Process (ADPIE), Care Planning & SMART Goals, PDSA Cycle, Patient Safety / Falls / Pressure Injury, Professional Practice & Communication
-
-**Body systems:** Anatomy & Physiology Foundations, Cell Biology & Homeostasis, Brain & Cerebral Circulation, Skin & Lesions
-
-**Specialties:** Mental Health Assessment & MSE, Palliative & End of Life Care, Cognitive Impairment & Legal Orders
-
-## Study Loop
-
-📖 **Learn** → 🎯 **Practice** → 📝 **Test** → ❌ **Review** → 🔄 **Retry**
-
-Every topic follows this cycle. Content teaches first, then tests. Wrong answers are collected with explanations and retried on their own until passed. 80% is the pass bar.
-
-A pass does not mean learned. Each module returns on a spaced schedule at 1 day, 3 days, 1 week, 3 weeks, 6 weeks, 9 weeks and 12 weeks. Seven clean passes across those gaps is what counts as Mastered.
-
-## In the app
-
-32 modules across 9 units, with a game layer sitting on top of the schedule:
-
-- **XP and levels** with nursing rank titles, from Student Nurse up to Nurse Practitioner
-- **ECG combo meter** that speeds up and spikes higher as the answer streak climbs, and flatlines on a wrong answer
-- **Combo multipliers** up to 3× XP
-- **Day streaks** and 21 badges
-- **Rapid Fire** — 60 seconds, 3 lives, 10 correct to survive
-- **Boss Round** — 15 questions against 15 HP, where wrong answers heal the boss
-- **Mixed Review** — 15 questions pulled at random across everything started
+## Content Sources
+- UNE unit guides and handbook (priority source)
+- Australian university study notes (SCU, Deakin, Federation, QUT)
+- TAFE NSW Diploma of Nursing materials
+- Australian clinical guidelines and frameworks (NMBA, NSQHS, AHPRA)
+- SimpleNursing procedure guides (adapted to Australian context)
+- Non-Australian sources used for structure/mnemonics only, not values/protocols
 
 ## Rules
-
-- **UNE unit guides are the authoritative source. Always.**
-- Referencing is APA 7th.
-- Australian sources go to all three places: the ClickUp summary doc, this hub, and the app.
-- Non-Australian sources go to the summary doc and this hub only, never the app. Structure and mnemonics can be borrowed; values, lab ranges and law cannot.
-- External notes (Studocu, Etsy, US-based material) are scaffolding only. Lab ranges, drug brand names and legal frameworks differ between countries.
-- Studocu essays and assessments are exam-prep reference only. They are not pushed to the hub or the app because they may be wrong. UNE ones are a style reference.
-- Content on this hub is drawn only from materials Georgia has supplied. Nothing is invented.
-- Assessment help is scaffolded steps only, never ghost-writing.
-- Design is LOCKED. Bangers headings, Patrick Hand body, Caveat asides, pastel cards, dashed borders. Only content changes.
-
----
-
-*Built with ClickUp Brain + GitHub Pages*
+- Australian content takes priority over international sources
+- Drug names, lab values, protocols and legislation must be Australian
+- Studocu essays/assessments are exam-prep reference only
+- APA 7th edition referencing (confirmed by UNE health sciences)
