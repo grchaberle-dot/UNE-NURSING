@@ -15,16 +15,22 @@ h1{font-family:'Bangers',cursive;font-size:clamp(2.5rem,7vw,4.2rem);color:oklch(
 main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 .section-label{font-family:'Bangers',cursive;font-size:1.4rem;color:oklch(25% 0.02 280);margin-bottom:1.2rem}
 .section-label span{margin-right:0.4rem}
+.tri-label{font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(45% 0.06 280);margin-bottom:0.3rem}
 .units-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-bottom:2.5rem}
-.unit-card{background:oklch(92% 0.05 350);border-radius:16px;padding:1.5rem;border:2px solid oklch(85% 0.06 350)}
-.unit-card:nth-child(2){background:oklch(92% 0.04 160);border-color:oklch(85% 0.05 160)}
-.unit-card:nth-child(3){background:oklch(92% 0.04 200);border-color:oklch(85% 0.05 200)}
-.unit-card:nth-child(4){background:oklch(92% 0.05 290);border-color:oklch(85% 0.06 290)}
-.unit-card:nth-child(5){background:oklch(93% 0.05 90);border-color:oklch(85% 0.06 90)}
-.unit-card:nth-child(6){background:oklch(92% 0.04 55);border-color:oklch(85% 0.05 55)}
+.unit-card{border-radius:16px;padding:1.5rem;border:2px solid oklch(85% 0.06 350)}
+.c-pink{background:oklch(92% 0.05 350);border-color:oklch(85% 0.06 350)}
+.c-mint{background:oklch(92% 0.04 160);border-color:oklch(85% 0.05 160)}
+.c-sky{background:oklch(92% 0.04 200);border-color:oklch(85% 0.05 200)}
+.c-lavender{background:oklch(92% 0.05 290);border-color:oklch(85% 0.06 290)}
+.c-yellow{background:oklch(93% 0.05 90);border-color:oklch(85% 0.06 90)}
+.c-peach{background:oklch(92% 0.04 55);border-color:oklch(85% 0.05 55)}
+.c-rose{background:oklch(93% 0.04 10);border-color:oklch(86% 0.05 10)}
+.c-teal{background:oklch(93% 0.04 180);border-color:oklch(86% 0.05 180)}
+.c-amber{background:oklch(93% 0.05 70);border-color:oklch(86% 0.06 70)}
 .unit-header{margin-bottom:1rem}
 .unit-header h2{font-family:'Bangers',cursive;font-size:1.7rem;color:oklch(20% 0.02 280);display:inline}
 .unit-header .unit-name{font-family:'Caveat',cursive;font-size:1.05rem;color:oklch(45% 0.08 280);margin-left:0.5rem}
+.unit-header .pep{font-family:'Bangers',cursive;font-size:0.8rem;color:oklch(40% 0.12 350);background:oklch(92% 0.06 350);border-radius:6px;padding:0.15rem 0.5rem;margin-left:0.5rem;vertical-align:middle}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:0.6rem}
 .tile{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.3rem;padding:0.8rem 0.4rem;border:2px dashed oklch(75% 0.08 350);border-radius:10px;text-decoration:none;color:oklch(30% 0.05 280);font-size:0.95rem;font-weight:600;text-align:center;background:oklch(98% 0.005 280);transition:transform 0.15s,background 0.15s}
 .tile:hover{transform:scale(1.05);background:oklch(95% 0.03 160)}
@@ -52,24 +58,26 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <body>
 <div class="header">
 <h1>🩺 UNE NURSING STUDY HUB</h1>
-<p class="tagline">Georgia's BNURS Interactive Materials</p>
+<p class="tagline">Bachelor of Nursing Interactive Materials</p>
 <p class="tagline2">Bookmark this one page. Everything lives here.</p>
 </div>
 <main>
 
 <a href="https://app.clickup.com/90161675879/artifact/2kz0vzk7-4936" class="app-banner">
 <p class="t">🎯 Open the Interactive Study App</p>
-<p class="d">140 modules across 21 units. Learn, practice, test, mock exams, 21 arena modes, spaced review.</p>
+<p class="d">153 modules across 21 units. Learn, practice, test, mock exams, 20+ arena modes, adaptive learning, spaced review.</p>
 </a>
 
 <p class="section-label"><span>🌟</span> MY SYSTEM</p>
 <div class="res-grid" style="margin-bottom:2.5rem">
-<a href="resources/my-study-system.html" class="res-link res-link-featured"><span>🏆</span> Georgia's Nursing Domination System</a>
+<a href="resources/my-study-system.html" class="res-link res-link-featured"><span>🏆</span> Nursing Domination System</a>
 </div>
 
-<p class="section-label"><span>🎓</span> TRIMESTER 1 UNITS</p>
+<!-- ═══════════════ T3 2026 ═══════════════ -->
+<p class="section-label"><span>🎓</span> T3 2026 &mdash; HEAD START</p>
+<p class="tri-label">Oct 2026 &ndash; Feb 2027 &middot; HLTH101 + HLTH102</p>
 <div class="units-grid">
-<div class="unit-card">
+<div class="unit-card c-pink">
 <div class="unit-header"><h2>HLTH101</h2><span class="unit-name">Information and Evidence in Health and Social Care</span></div>
 <div class="tiles">
 <a href="HLTH101/critical-thinking.html" class="tile tile-active"><span class="tile-icon">🧠</span>Critical Thinking</a>
@@ -78,7 +86,7 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
 </div>
 </div>
-<div class="unit-card">
+<div class="unit-card c-mint">
 <div class="unit-header"><h2>HLTH102</h2><span class="unit-name">Interprofessional Practice in Health and Social Care</span></div>
 <div class="tiles">
 <a href="reference-cards/professional-practice.html" class="tile tile-active"><span class="tile-icon">👩‍⚕️</span>Teamwork</a>
@@ -87,16 +95,13 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
 </div>
 </div>
-<div class="unit-card">
-<div class="unit-header"><h2>HLTH103</h2><span class="unit-name">Communication for Health Professionals</span></div>
-<div class="tiles">
-<a href="reference-cards/professional-practice.html" class="tile tile-active"><span class="tile-icon">🗣️</span>Therapeutic</a>
-<a href="reference-cards/chimneops.html" class="tile tile-active"><span class="tile-icon">📝</span>Documenting</a>
-<a href="reference-cards/palliative-eolc.html" class="tile tile-active"><span class="tile-icon">💜</span>Hard Talks</a>
-<a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
 </div>
-</div>
-<div class="unit-card">
+
+<!-- ═══════════════ T1 2027 ═══════════════ -->
+<p class="section-label"><span>🎓</span> T1 2027</p>
+<p class="tri-label">Feb &ndash; Jun 2027 &middot; HSNS170 + HSNS171 🏥 + PSIO110</p>
+<div class="units-grid">
+<div class="unit-card c-lavender">
 <div class="unit-header"><h2>HSNS170</h2><span class="unit-name">Foundations of Safety and Quality in Nursing</span></div>
 <div class="tiles">
 <a href="reference-cards/antt.html" class="tile tile-active"><span class="tile-icon">🧱</span>ANTT</a>
@@ -105,8 +110,8 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <a href="reference-cards/deteriorating-patient.html" class="tile tile-active"><span class="tile-icon">🚨</span>Deterioration</a>
 </div>
 </div>
-<div class="unit-card">
-<div class="unit-header"><h2>HSNS171</h2><span class="unit-name">Professional Nursing Practice 1: Fundamentals</span></div>
+<div class="unit-card c-yellow">
+<div class="unit-header"><h2>HSNS171</h2><span class="unit-name">Professional Nursing Practice 1</span><span class="pep">🏥 80hr PEP</span></div>
 <div class="tiles">
 <a href="reference-cards/nursing-process.html" class="tile tile-active"><span class="tile-icon">📋</span>ADPIE</a>
 <a href="reference-cards/head-to-toe.html" class="tile tile-active"><span class="tile-icon">🩺</span>Head-to-Toe</a>
@@ -114,7 +119,7 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <a href="reference-cards/dosage-calculations.html" class="tile tile-active"><span class="tile-icon">🧮</span>Dosage</a>
 </div>
 </div>
-<div class="unit-card">
+<div class="unit-card c-peach">
 <div class="unit-header"><h2>PSIO110</h2><span class="unit-name">Introductory Human Physiology 1</span></div>
 <div class="tiles">
 <a href="reference-cards/anatomy-foundations.html" class="tile tile-active"><span class="tile-icon">🦴</span>Tissues</a>
@@ -122,6 +127,63 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
 <a href="reference-cards/brain-circulation.html" class="tile tile-active"><span class="tile-icon">🧠</span>Brain</a>
 <a href="reference-cards/ecg-interpretation.html" class="tile tile-active"><span class="tile-icon">❤️</span>Cardiac</a>
 </div>
+</div>
+</div>
+
+<!-- ═══════════════ T2 2027 ═══════════════ -->
+<p class="section-label"><span>🎓</span> T2 2027</p>
+<p class="tri-label">Jun &ndash; Oct 2027 &middot; HSNS172 + HSNS173 🏥 + PSIO120</p>
+<div class="units-grid">
+<div class="unit-card c-sky">
+<div class="unit-header"><h2>HSNS172</h2><span class="unit-name">Safety Application in Nursing</span></div>
+<div class="tiles">
+<a href="#" class="tile tile-soon"><span class="tile-icon">🛡️</span>Safety</a>
+<a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
+</div>
+</div>
+<div class="unit-card c-rose">
+<div class="unit-header"><h2>HSNS173</h2><span class="unit-name">Professional Nursing Practice 2</span><span class="pep">🏥 80hr PEP</span></div>
+<div class="tiles">
+<a href="#" class="tile tile-soon"><span class="tile-icon">🩺</span>Clinical</a>
+<a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
+</div>
+</div>
+<div class="unit-card c-teal">
+<div class="unit-header"><h2>PSIO120</h2><span class="unit-name">Introductory Human Physiology 2</span></div>
+<div class="tiles">
+<a href="#" class="tile tile-soon"><span class="tile-icon">🦴</span>Systems</a>
+<a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
+</div>
+</div>
+</div>
+
+<!-- ═══════════════ T3 2027 ═══════════════ -->
+<p class="section-label"><span>🎓</span> T3 2027</p>
+<p class="tri-label">Oct 2027 &ndash; Feb 2028 &middot; HLTH203 (lighter trimester)</p>
+<div class="units-grid">
+<div class="unit-card c-amber">
+<div class="unit-header"><h2>HLTH203</h2><span class="unit-name">Digital Health and Informatics</span></div>
+<div class="tiles">
+<a href="#" class="tile tile-soon"><span class="tile-icon">💻</span>Digital Health</a>
+<a href="#" class="tile tile-soon"><span class="tile-icon">🎯</span>Quiz</a>
+</div>
+</div>
+</div>
+
+<!-- ═══════════════ LATER YEARS ═══════════════ -->
+<p class="section-label"><span>🔒</span> YEAR 2+ (unlocks as you progress)</p>
+<div class="units-grid">
+<div class="unit-card c-lavender" style="opacity:0.5">
+<div class="unit-header"><h2>2028</h2><span class="unit-name">PSIO215, HSNS294 🏥, HSNS295 🏥, HSNS296</span></div>
+<div class="tiles"><span class="tile tile-soon"><span class="tile-icon">🔒</span>Locked</span></div>
+</div>
+<div class="unit-card c-mint" style="opacity:0.5">
+<div class="unit-header"><h2>2029</h2><span class="unit-name">HSNS210 🏥, HSNS374, OORA400, HSNS249 🏥, HSNS363</span></div>
+<div class="tiles"><span class="tile tile-soon"><span class="tile-icon">🔒</span>Locked</span></div>
+</div>
+<div class="unit-card c-rose" style="opacity:0.5">
+<div class="unit-header"><h2>2030</h2><span class="unit-name">HSNS362, HSNS372 🏥 (160hr), HSNS370, HSNS398 🏥 (160hr + 100% med calc)</span></div>
+<div class="tiles"><span class="tile tile-soon"><span class="tile-icon">🔒</span>Locked</span></div>
 </div>
 </div>
 
