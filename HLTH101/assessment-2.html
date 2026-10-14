@@ -11,8 +11,7 @@ body{font-family:'Patrick Hand',cursive;background:oklch(96% 0.01 280);min-heigh
 .header{background:linear-gradient(135deg,oklch(90% 0.07 290) 0%,oklch(92% 0.05 350) 100%);padding:1.5rem;text-align:center;border-bottom:3px solid oklch(80% 0.09 290)}
 .header h1{font-family:'Bangers',cursive;font-size:clamp(1.8rem,5vw,2.8rem);color:oklch(15% 0.02 280)}
 .header .sub{font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.08 280)}
-.back{display:inline-block;text-decoration:none;color:oklch(30% 0.05 280);font-weight:700;padding:0.5rem 1rem;margin:1rem 0 1rem 1.5rem;border:2px solid oklch(80% 0.06 280);border-radius:10px;font-size:0.95rem;transition:transform 0.15s}
-.back:hover{transform:scale(1.03)}
+.back{display:inline-block;text-decoration:none;color:oklch(30% 0.05 280);font-weight:700;padding:0.5rem 1rem;margin:1rem 0 1rem 1.5rem;border:2px solid oklch(80% 0.06 280);border-radius:10px;font-size:0.95rem}
 main{max-width:900px;margin:0 auto;padding:1rem 1.5rem 3rem}
 section{margin-bottom:2.5rem}
 section h2{font-family:'Bangers',cursive;font-size:1.6rem;margin-bottom:1rem}
@@ -29,66 +28,70 @@ section h2{font-family:'Bangers',cursive;font-size:1.6rem;margin-bottom:1rem}
 .tip{position:relative;background:oklch(98% 0.01 280);border:2px dashed oklch(70% 0.05 280);border-radius:12px;padding:1rem;margin-top:0.8rem;font-family:'Caveat',cursive;font-size:1.1rem;color:oklch(40% 0.06 280)}
 .tip::before{content:'\1F4A1';position:absolute;top:-12px;left:12px;font-size:1.1rem}
 .grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
-table{width:100%;border-collapse:collapse;margin-top:0.5rem;font-size:0.95rem}
+table{width:100%;border-collapse:collapse;margin-top:0.5rem;font-size:0.92rem}
 table th{font-family:'Bangers',cursive;background:oklch(88% 0.06 290);padding:0.5rem;text-align:left;border:2px solid oklch(80% 0.08 290)}
 table td{padding:0.5rem;border:2px solid oklch(88% 0.04 290);background:oklch(98% 0.01 280);vertical-align:top}
+td.hd{background:oklch(95% 0.05 160)}
 code{background:oklch(92% 0.03 290);padding:0.1rem 0.4rem;border-radius:6px;font-size:0.9rem}
-@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}table{font-size:0.8rem}}
 </style>
 </head>
 <body>
 <div class="header">
 <h1>&#x1F4CA; HLTH101 Assessment 2: The Slide Deck</h1>
-<p class="sub">Written assignment as a PowerPoint presentation | Source: 2025&ndash;26 A2 tutorial slides, Taylor &amp; Brown case study + 2024 template (UNE)</p>
+<p class="sub">Learning Task | Source: official A2 portal, rubric v2025&ndash;26, Taylor &amp; Brown case study (UNE)</p>
 </div>
-<a href="../index.html" class="back">&larr; Back to Hub</a> <a href="assessment-1.html" class="back">&#x1F5BC;&#xFE0F; A1 Poster</a> <a href="unit-guide.html" class="back">&#x1F4D8; Unit Guide</a> <a href="assessment-3.html" class="back">&#x1FA9E; A3 Reflection &rarr;</a>
+<a href="../index.html" class="back">&larr; Back to Hub</a> <a href="assessment-1.html" class="back">&#x1F5BC;&#xFE0F; A1 Poster</a> <a href="evaluating-information.html" class="back">&#x1F50E; Evaluating Info</a> <a href="../resources/apa-7th-une.html" class="back">&#x1F4DA; APA</a> <a href="assessment-3.html" class="back">&#x1FA9E; A3 &rarr;</a>
 <main>
 
 <section>
 <h2>&#x1F4CC; The Basics</h2>
 <div class="grid-2">
-<div class="card c-pink"><h3>Weight</h3><p><b>40%</b>, must complete</p></div>
-<div class="card c-yel"><h3>Due</h3><p><b>Wed 16 Dec 2026, 23:59 AEDT</b> (Week 9)</p></div>
-<div class="card c-mint"><h3>Length</h3><p><b>1200 words &plusmn; 10%</b> (1080&ndash;1320) across 7 slides. Slide body only, <b>no speaker notes</b>. Slides 1 &amp; 7 don't count.</p></div>
-<div class="card c-cyan"><h3>Covers</h3><p>Slides say LOs 1&ndash;6, Mods 1&ndash;4. The Unit Outline says LOs 2, 3, 5, 6. Go with the outline.</p></div>
+<div class="card c-pink"><h3>Weight</h3><p><b>40%</b>, mandatory, <b>Learning Task</b></p></div>
+<div class="card c-yel"><h3>Due</h3><p><b>Wed 16 Dec 2026, 23:59</b> (Week 9)</p></div>
+<div class="card c-mint"><h3>Length</h3><p><b>1200 words</b> across 7 slides (fits <b>7 A3 sheets</b>). Slide body only, <b>no notes</b>. Slides 1 &amp; 7 don't count.</p></div>
+<div class="card c-cyan"><h3>Covers</h3><p><b>ULO2, ULO3, ULO5, ULO6</b> (official portal)</p></div>
+</div>
+<div class="tip">Use the 2025-26 .pptx template from the portal, not the 2024 PDF.</div>
+</section>
+
+<section>
+<h2>&#x1F916; AI Rules (Learning Task)</h2>
+<div class="card c-lav">
+<ul>
+<li><b>Allowed:</b> generative AI (e.g. MadgwickStudent) and assistive AI (e.g. Grammarly, APA7 SmartCite). Studiosity is becoming <b>Annota</b> from T3</li>
+<li><b>Must:</b> acknowledge any AI with an <b>APA 7th in-text citation + reference entry</b> (see the APA cheat sheet, item 1.12)</li>
+<li><b>Not allowed:</b> using AI as a <b>substitute for your own critical analysis</b></li>
+</ul>
 </div>
 </section>
 
 <section>
 <h2>&#x1F3AF; The Task</h2>
 <div class="card c-lav">
-<p>Read the <b>Taylor and Brown Case Study and Scenarios</b>. The families ask you two questions. Pick <b>ONE</b>:</p>
+<p>Read the <b>Taylor and Brown Case Study</b>. Pick <b>ONE</b> question and answer it, detailing and justifying your answer:</p>
 <ul>
-<li>Does the <b>MMR vaccine cause autism</b>?</li>
-<li>Is <b>facilitated communication</b> a valid intervention?</li>
+<li>Does the <b>MMR vaccine cause autism</b>? &rarr; start with <b>Patil (2011)</b></li>
+<li>Is <b>facilitated communication</b> a valid intervention? &rarr; start with <b>Biklen (1990)</b></li>
 </ul>
-<p>Answer it, and detail and justify your answer using critical thinking, valid academic literature, in-text citations and references. Start with the paper links on myLearn.</p>
-<div class="tip">Their hint: "go back to Module 1 to check you are on the right track!"</div>
+<div class="tip">"Correctly locating the original research is part of your assessment." Get it wrong and slides 1&ndash;3 drop to the Fail band. Go back to Module 1!</div>
 </div>
 </section>
 
 <section>
 <h2>&#x1F46A; The Case Study</h2>
-<div class="card c-peach">
-<p>In both scenarios you're a health professional supporting <b>Alison and Paul</b> (Alison Taylor married Paul Brown, NW Sydney, kids Blake 5 and Sarah 3).</p>
-</div>
+<div class="card c-peach"><p>In both scenarios you're a health professional supporting <b>Alison and Paul</b> (Alison Taylor married Paul Brown, NW Sydney, kids Blake 5 and Sarah 3).</p></div>
 <div class="grid-2">
-<div class="card c-yel"><h3>Scenario 1: Vaccination</h3>
-<ul>
-<li>Sarah (3) <b>can't be vaccinated</b> (allergies and a compromised immune system) and gets sick often. Blake (5) is up to date.</li>
-<li>Alison fears <b>measles and/or whooping cough</b> and wants no contact with Emily's unvaccinated kids, Jessica (8) and Paula (5).</li>
-<li>Emily is anti-vax because the family links <b>Edward's</b> autism (delay at 3, autism confirmed at 5) to his MMR.</li>
-<li><b>Alison asks: does the MMR vaccine cause autism?</b></li>
-</ul></div>
-<div class="card c-mint"><h3>Scenario 2: Facilitated Communication</h3>
-<ul>
-<li>Joan and Eric use <b>FC</b> with Edward and believe it helps (plus sight cards and picture stories).</li>
-<li>Paul has <b>strong doubts</b>, but wonders if it could help <b>Adam</b> (severe brain injury 3 years ago, severe communication and mobility difficulties) and <b>Kyra</b> (5, developmental delay).</li>
-<li>Rachel (Adam's wife, Kyra's grandmother) leans on Paul for support.</li>
-<li><b>Paul asks: how effective is FC as an intervention tool?</b></li>
-</ul></div>
+<div class="card c-yel"><h3>Scenario 1: Vaccination</h3><ul>
+<li>Sarah (3) <b>can't be vaccinated</b> (allergies, compromised immunity), gets sick often. Blake is up to date.</li>
+<li>Alison fears measles/whooping cough and wants no contact with Emily's unvaccinated kids.</li>
+<li>Emily is anti-vax because the family links Edward's autism to MMR.</li>
+<li><b>Alison asks: does MMR cause autism?</b></li></ul></div>
+<div class="card c-mint"><h3>Scenario 2: Facilitated Communication</h3><ul>
+<li>Joan and Eric use FC with Edward (plus sight cards and picture stories).</li>
+<li>Paul doubts it, but wonders about it for <b>Adam</b> (brain injury) and <b>Kyra</b> (developmental delay).</li>
+<li><b>Paul asks: how effective is FC?</b></li></ul></div>
 </div>
-<div class="tip">Think about your audience (Alison or Paul) and what they actually need from you. In Scenario 1 the stakes are a child who CAN'T be vaccinated. In Scenario 2 FC might be applied to two very different people.</div>
 </section>
 
 <section>
@@ -96,28 +99,29 @@ code{background:oklch(92% 0.03 290);padding:0.1rem 0.4rem;border-radius:6px;font
 <div class="card c-mint">
 <table>
 <tr><th>#</th><th>Slide</th><th>What goes on it</th></tr>
-<tr><td>1</td><td>Title</td><td>Name, student no., unit code + title, assessment no., UC, submission date, title of your work (not counted)</td></tr>
+<tr><td>1</td><td>Title</td><td>Name, student no., unit code + title, UC, submission date, <b>word count</b>, title of your work (not counted)</td></tr>
 <tr><td>2</td><td>The Topic</td><td>The family's key question + how you'll answer it</td></tr>
-<tr><td>3</td><td>The Original Research</td><td>Identify and analyse the original publication, summarise its key points</td></tr>
-<tr><td>4</td><td>The Rebuttal OR Supporting Research</td><td>Research you find in your own lit search, summarise its key findings</td></tr>
-<tr><td>5</td><td>Conclusions</td><td>Compare and contrast original vs rebuttal/supporting, then reach a conclusion</td></tr>
-<tr><td>6</td><td>Questions and Answers</td><td>2 questions "from the audience" + answers that expand on what you've presented</td></tr>
-<tr><td>7</td><td>References</td><td>APA 7th, no hanging indent needed (not counted)</td></tr>
+<tr><td>3</td><td>Original Research</td><td>Identify and analyse the ORIGINAL publication, summarise its key points</td></tr>
+<tr><td>4</td><td>Rebuttal OR Supporting</td><td>From your own lit search, summarise key findings</td></tr>
+<tr><td>5</td><td>Conclusions</td><td>Compare and contrast, then reach a conclusion</td></tr>
+<tr><td>6</td><td>Q&amp;A</td><td>2 anticipated audience questions + answers that expand on what you've presented</td></tr>
+<tr><td>7</td><td>References</td><td>Complete APA 7th list (not counted)</td></tr>
 </table>
+<div class="tip">Write in complete sentences, NOT dot points. The deck is "your personal resource", so give it enough detail to support your argument.</div>
 </div>
 </section>
 
 <section>
-<h2>&#x1F4AF; Marking (out of 100)</h2>
+<h2>&#x1F3C6; Rubric: What Gets the HD</h2>
 <div class="card c-pink">
 <table>
-<tr><th>Criterion</th><th>Slides</th><th>Marks</th></tr>
-<tr><td><b>Introduce</b> yourself + topic, <b>identify</b> the original publication and summarise key findings</td><td>1&ndash;3</td><td><b>20</b></td></tr>
-<tr><td><b>Literature search</b> for rebuttal/supporting evidence using discipline-specific resources, <b>summarise</b></td><td>4</td><td><b>30</b></td></tr>
-<tr><td><b>Compare &amp; contrast</b>, <b>conclusion</b>, propose and answer <b>2 questions</b></td><td>5&ndash;6</td><td><b>30</b></td></tr>
-<tr><td><b>APA 7th</b> throughout + complete References list</td><td>3&ndash;7</td><td><b>20</b></td></tr>
+<tr><th>Criterion</th><th>Credit</th><th>Distinction</th><th>High Distinction</th></tr>
+<tr><td><b>Slides 1&ndash;3</b> /20</td><td>13&ndash;14: sound, original correctly ID'd</td><td>15&ndash;16: very good, detailed + succinct</td><td class="hd"><b>17&ndash;20:</b> comprehensive, professionally presented intro + clear, correct ID</td></tr>
+<tr><td><b>Slide 4</b> /30</td><td>20&ndash;22: sound location of evidence</td><td>23&ndash;25: very good location, detailed</td><td class="hd"><b>26&ndash;30:</b> HIGH level of location of appropriate evidence</td></tr>
+<tr><td><b>Slides 5&ndash;6</b> /30</td><td>20&ndash;22: sound comparison, well-structured Q&amp;A</td><td>23&ndash;25: detailed comparison, very good substantiation</td><td class="hd"><b>26&ndash;30:</b> comprehensive comparison, high substantiation, <b>insightful</b> Q&amp;A</td></tr>
+<tr><td><b>Present + APA</b> /20</td><td>13&ndash;14: good, few slips</td><td>15&ndash;16: very good, wider research</td><td class="hd"><b>17&ndash;20:</b> professional, strict APA, strong wider research</td></tr>
 </table>
-<div class="tip">Slide 4 alone is worth 30. Your literature search is where the marks are, so don't skimp on databases.</div>
+<div class="tip">Fail trap: original research not identified, or the wrong one identified.</div>
 </div>
 </section>
 
@@ -125,13 +129,10 @@ code{background:oklch(92% 0.03 290);padding:0.1rem 0.4rem;border-radius:6px;font
 <h2>&#x2705; Rules Checklist</h2>
 <div class="card c-cyan">
 <ul>
-<li><b>12 pt minimum</b> for body text</li>
-<li><b>Paragraphs, not dot points</b> (yes, even on slides)</li>
-<li>Write on the slide body only, no notes</li>
+<li>Complete sentences, academic tone, no dot points, no notes</li>
 <li>Submit as <code>Surname Initial StudentNumber A2HLTH101.pptx</code></li>
-<li>Template provided is the <b>2024</b> version, so check myLearn for a newer one</li>
+<li>Status must say <b>Submitted for grading</b></li>
 <li>Questions go in the <b>"Questions about Assessment 2? Ask here!"</b> forum</li>
-<li>Submit on time so you have room for A3</li>
 </ul>
 </div>
 </section>
