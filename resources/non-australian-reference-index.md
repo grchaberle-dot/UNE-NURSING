@@ -22,6 +22,15 @@ These sources were uploaded during September 2026 and reviewed. The **concepts**
 
 ## Indexed sources
 
+### Academic Phrasebank, University of Manchester (UK)
+
+Link: https://www.phrasebank.manchester.ac.uk/ (created by John Morley). Added October 2026.
+
+Covers: generic academic phrases organised by research-paper section: Introducing work, Referring to sources, Describing methods, Reporting results, Discussing findings, Writing conclusions. It also has general communicative functions in the left-hand menu. An expanded PDF/Kindle version exists.
+
+**Use for:** academic *wording* and sentence structure. The site says its phrases are mostly content-neutral, so using them is not plagiarism, but they need adapting and any example content words should be swapped for your own. Handy spots: Introducing work / Writing conclusions (HLTH101 A3 intro and conclusion, A2 slides 2 and 5), Referring to sources (A1 paragraphs), Discussing findings (A2 original vs rebuttal).
+**Do not use for:** content, referencing style (UNE nursing = APA 7th), or any rules. Not a citable source.
+
 ### Harvard nursing study notes (US)
 
 Covers: fire and earthquake safety, nursing process and delegation, medication and nutrition, stress and defence mechanisms, therapeutic communication, respiratory / renal / cardiovascular / neurological disorders, emergency nursing, endocrine and metabolic disorders, electrolytes, acid-base, molecular biology.
